@@ -12,9 +12,13 @@ class InicioPage extends StatelessWidget {
         children: <Widget>[
           CartelPrincipal(),
           this.listaHorizontal('Avances', ItemRedondeado(), 10),
+          SizedBox(height: 10.0,),
           this.listaHorizontal('Tendencias', ItemImg(), 10),
+          SizedBox(height: 10.0,),
           this.listaHorizontal('Mi lista', ItemImg(), 10),
+          SizedBox(height: 10.0,),
           this.listaHorizontal('Estrenos', ItemImg(), 10),
+          SizedBox(height: 10.0,),
         ],
       ),
     );
